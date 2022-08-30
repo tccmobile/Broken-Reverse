@@ -15,7 +15,7 @@ int main() {
    
    // Reverse
    for (i = 0; i < revVctr.size(); ++i) {
-      revVctr.at(i) = revVctr.at(revVctr.size() - i); // Swap
+      revVctr.at(i) = revVctr.at(revVctr.size() - 1 - i); // Swap
    }
    
    // Print values
